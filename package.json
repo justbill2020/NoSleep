@@ -1,0 +1,22 @@
+{
+  "name": "nosleep",
+  "version": "0.0.1",
+  "description": "This is an app to move the mouse 1 pixels every 30 seconds after a idle period of 3 minutes to keep PC from sleeping",
+  "main": "noSleep.js",
+  "scripts": {
+    "start": "node noSleep.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Bill Martin",
+  "license": "MIT",
+  "dependencies": {
+    "command-line-args": "^5.0.2",
+    "command-line-usage": "^5.0.5",
+    "debounce": "^1.2.0",
+    "exit": "^0.1.2",
+    "iohook": "^0.2.0",
+    "milliseconds": "^1.0.3",
+    "moment": "^2.22.2",
+    "robotjs": "^0.5.1"
+  }
+}
